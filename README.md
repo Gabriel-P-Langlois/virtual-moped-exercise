@@ -24,9 +24,10 @@ See below for details.
 
 The user simply instructs the Moped to "`go left`", "`go right`", "`straight on`", or "`back up`", and moped moves one block in the chosen direction.
 
-- The Moped always starts out its life at 10th St. and 5th Ave., facing South.
+- The Moped always starts out its life at 10th St. and 5th Ave., facing South, going forwards.
 - The program must announce the Moped's current location and orientation (which cardinal direction it is facing), when it starts, and with every move.
 - If the user commands the Moped to "`park`", then the program outputs a message, "We have parked", indicating the moped has been parked on the sidewalk, and quits.
+- Telling the moped to `back up` puts it into reverse until it is explicitly told to go `straight on` again, and vice versa.
 - Turning left while going forwards is a different thing from turning left while in reverse, hence _your moped must keep track of its orientation_.
 
 ![Virtual moped movement](./images/Virtual_moped_movement_diagram.png)
