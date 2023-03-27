@@ -42,7 +42,7 @@ The user simply instructs the Moped to "`go left`", "`go right`", "`straight on`
 
 ### Homing
 
-The Moped has a special "`go to Xi'an Famous Foods`" command that automatically drives the Moped from wherever it happens to be to [https://www.xianfoods.com/ Xi'an Famous Foods] restaurant at 8th Ave. and 15th St.
+The Moped has a special "`go to Xi'an Famous Foods`" command that automatically drives the Moped from wherever it happens to be to [Xi'an Famous Foods](https://www.xianfoods.com/) restaurant at 8th Ave. and 15th St.
 
 - the Moped should auto-drive itself one block at a time to the address of Xi'an Famous Foods, outputting its location with each block.
 - the Moped must use the same methods to move block-by-block and same amount of gas when homing as when being manually driven. If it needs to fill up gas while homing, it should do so automatically and then continue. The only difference between homing and manual driving is that the user is not being asked what the Moped should do, the Moped is deciding for itself.
