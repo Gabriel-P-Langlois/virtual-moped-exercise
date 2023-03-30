@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * A virtual moped, roaming the streets of New York.
- * The signatures of a few methods are given and must be completed and used as indicated.
+ * The signatures of a few methods are given and MUST be completed and used as indicated.
  * Create as many additional properties or methods as you want, as long as the given methods behave as indicated in the instructions.
  * Follow good object-oriented design, especially the principles of abstraction (i.e. the black box metaphor) and encapsulation (i.e. methods and properties belonging to specific objects), as we have learned them.
  * The rest is up to you.
